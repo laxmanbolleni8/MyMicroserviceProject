@@ -5,7 +5,7 @@ using System.Collections.Generic;
 [ApiController]
 public class ProductController : ControllerBase
 {
-    private static readonly List<string> Products = new List<string> { "Laptop", "Phone", "Tablet" };
+    private static readonly List<string> Products = new List<string> { "Laptop", "Phone"};
 
     [HttpGet]
     public IActionResult GetProducts()
